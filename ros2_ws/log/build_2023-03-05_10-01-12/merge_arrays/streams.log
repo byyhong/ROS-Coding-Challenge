@@ -1,0 +1,20 @@
+[0.033s] Invoking command in '/home/ros/ros2_ws/build/merge_arrays': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/ros2_ws/install/launch_testing_examples:/home/ros/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ros/ros2_ws/install/examples_rclpy_minimal_service:/home/ros/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_client:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ros/ros2_ws/install/examples_rclpy_guard_conditions:/home/ros/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2_ws/build/merge_arrays -- -j4 -l4
+[0.164s] [35m[1mConsolidate compiler generated dependencies of target merge_arrays_node[0m
+[0.197s] [ 50%] [32mBuilding CXX object CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o[0m
+[0.197s] [ 75%] Built target listener
+[5.379s] [01m[K/home/ros/ros2_ws/src/merge_arrays/src/merge_arrays_node.cpp:[m[K In constructor ‘[01m[KMergeArrays::MergeArrays()[m[K’:
+[5.380s] [01m[K/home/ros/ros2_ws/src/merge_arrays/src/merge_arrays_node.cpp:21:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription[m[K’ was not declared in this scope
+[5.380s]    21 |       [01;31m[Ksubscription[m[K = this->create_subscription<std_msgs::msg::String>("Input/array1", 10, std::bind(&MergeArrays::topic_callback, this, _1));
+[5.380s]       |       [01;31m[K^~~~~~~~~~~~[m[K
+[5.381s] [01m[K/home/ros/ros2_ws/src/merge_arrays/src/merge_arrays_node.cpp:21:137:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_1[m[K’?
+[5.381s]    21 | g>("Input/array1", 10, std::bind(&MergeArrays::topic_callback, this, [01;31m[K_1[m[K));
+[5.381s]       |                                                                      [01;31m[K^~[m[K
+[5.381s]       |                                                                      [32m[Kstd::placeholders::_1[m[K
+[5.381s] In file included from [01m[K/home/ros/ros2_ws/src/merge_arrays/src/merge_arrays_node.cpp:2[m[K:
+[5.382s] [01m[K/usr/include/c++/11/functional:225:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_1[m[K’ declared here
+[5.382s]   225 |     extern const _Placeholder<1> [01;36m[K_1[m[K;
+[5.382s]       |                                  [01;36m[K^~[m[K
+[7.117s] gmake[2]: *** [CMakeFiles/merge_arrays_node.dir/build.make:76: CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o] Error 1
+[7.118s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/merge_arrays_node.dir/all] Error 2
+[7.118s] gmake: *** [Makefile:146: all] Error 2
+[7.122s] Invoked command in '/home/ros/ros2_ws/build/merge_arrays' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/ros2_ws/install/launch_testing_examples:/home/ros/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ros/ros2_ws/install/examples_rclpy_minimal_service:/home/ros/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_client:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ros/ros2_ws/install/examples_rclpy_guard_conditions:/home/ros/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2_ws/build/merge_arrays -- -j4 -l4

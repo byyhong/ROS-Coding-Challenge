@@ -1,0 +1,51 @@
+[0.082s] Invoking command in '/home/ros/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/ros2_ws/install/launch_testing_examples:/home/ros/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ros/ros2_ws/install/examples_rclpy_minimal_service:/home/ros/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_client:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ros/ros2_ws/install/examples_rclpy_guard_conditions:/home/ros/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/ros/ros2_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/ros/ros2_ws/install/my_package
+[0.272s] -- The C compiler identification is GNU 11.3.0
+[0.556s] -- The CXX compiler identification is GNU 11.3.0
+[0.586s] -- Detecting C compiler ABI info
+[0.749s] -- Detecting C compiler ABI info - done
+[0.778s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.779s] -- Detecting C compile features
+[0.779s] -- Detecting C compile features - done
+[0.786s] -- Detecting CXX compiler ABI info
+[0.948s] -- Detecting CXX compiler ABI info - done
+[0.966s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.966s] -- Detecting CXX compile features
+[0.966s] -- Detecting CXX compile features - done
+[0.996s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.836s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[2.291s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.584s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.584s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ros/ros2_ws/src/my_package/include>
+[2.584s] -- Configured cppcheck exclude dirs and/or files: 
+[2.587s] -- Added test 'lint_cmake' to check CMake code style
+[2.591s] -- Added test 'uncrustify' to check C / C++ code style
+[2.592s] -- Configured uncrustify additional arguments: 
+[2.607s] -- Added test 'xmllint' to check XML markup files
+[2.607s] -- Configuring done
+[2.624s] -- Generating done
+[2.624s] -- Build files have been written to: /home/ros/ros2_ws/build/my_package
+[2.684s] Invoked command in '/home/ros/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/ros2_ws/install/launch_testing_examples:/home/ros/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ros/ros2_ws/install/examples_rclpy_minimal_service:/home/ros/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_client:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ros/ros2_ws/install/examples_rclpy_guard_conditions:/home/ros/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/ros/ros2_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/ros/ros2_ws/install/my_package
+[2.687s] Invoking command in '/home/ros/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/ros2_ws/install/launch_testing_examples:/home/ros/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ros/ros2_ws/install/examples_rclpy_minimal_service:/home/ros/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_client:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ros/ros2_ws/install/examples_rclpy_guard_conditions:/home/ros/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2_ws/build/my_package -- -j4 -l4
+[2.840s] [ 50%] [32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o[0m
+[2.916s] [100%] [32m[1mLinking CXX executable my_node[0m
+[3.128s] [100%] Built target my_node
+[3.163s] Invoked command in '/home/ros/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/ros2_ws/install/launch_testing_examples:/home/ros/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ros/ros2_ws/install/examples_rclpy_minimal_service:/home/ros/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_client:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ros/ros2_ws/install/examples_rclpy_guard_conditions:/home/ros/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2_ws/build/my_package -- -j4 -l4
+[3.295s] Invoking command in '/home/ros/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/ros2_ws/install/launch_testing_examples:/home/ros/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ros/ros2_ws/install/examples_rclpy_minimal_service:/home/ros/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_client:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ros/ros2_ws/install/examples_rclpy_guard_conditions:/home/ros/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/ros/ros2_ws/build/my_package
+[3.319s] -- Install configuration: ""
+[3.319s] -- Installing: /home/ros/ros2_ws/install/my_package/lib/my_package/my_node
+[3.321s] -- Installing: /home/ros/ros2_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[3.322s] -- Installing: /home/ros/ros2_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[3.325s] -- Installing: /home/ros/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[3.328s] -- Installing: /home/ros/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[3.329s] -- Installing: /home/ros/ros2_ws/install/my_package/share/my_package/environment/path.sh
+[3.329s] -- Installing: /home/ros/ros2_ws/install/my_package/share/my_package/environment/path.dsv
+[3.329s] -- Installing: /home/ros/ros2_ws/install/my_package/share/my_package/local_setup.bash
+[3.329s] -- Installing: /home/ros/ros2_ws/install/my_package/share/my_package/local_setup.sh
+[3.330s] -- Installing: /home/ros/ros2_ws/install/my_package/share/my_package/local_setup.zsh
+[3.330s] -- Installing: /home/ros/ros2_ws/install/my_package/share/my_package/local_setup.dsv
+[3.330s] -- Installing: /home/ros/ros2_ws/install/my_package/share/my_package/package.dsv
+[3.330s] -- Installing: /home/ros/ros2_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+[3.331s] -- Installing: /home/ros/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[3.331s] -- Installing: /home/ros/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[3.332s] -- Installing: /home/ros/ros2_ws/install/my_package/share/my_package/package.xml
+[3.343s] Invoked command in '/home/ros/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/ros2_ws/install/launch_testing_examples:/home/ros/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ros/ros2_ws/install/examples_rclpy_minimal_service:/home/ros/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_client:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ros/ros2_ws/install/examples_rclpy_guard_conditions:/home/ros/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/ros/ros2_ws/build/my_package

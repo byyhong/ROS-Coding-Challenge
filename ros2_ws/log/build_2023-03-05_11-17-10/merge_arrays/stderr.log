@@ -1,0 +1,7 @@
+[01m[K/home/ros/ros2_ws/src/merge_arrays/src/merge_arrays_node.cpp:[m[K In constructor ‘[01m[KMergeArrays::MergeArrays()[m[K’:
+[01m[K/home/ros/ros2_ws/src/merge_arrays/src/merge_arrays_node.cpp:24:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Kreturn_message[m[K’
+   24 |       std::string subscrip = subscription_.[01;31m[Kreturn_message[m[K();
+      |                                            [01;31m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/merge_arrays_node.dir/build.make:76: CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/merge_arrays_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

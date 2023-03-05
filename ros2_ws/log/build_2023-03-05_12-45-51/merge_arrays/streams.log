@@ -1,0 +1,12 @@
+[0.055s] Invoking command in '/home/ros/ros2_ws/build/merge_arrays': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/ros2_ws/install/launch_testing_examples:/home/ros/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ros/ros2_ws/install/examples_rclpy_minimal_service:/home/ros/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_client:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ros/ros2_ws/install/examples_rclpy_guard_conditions:/home/ros/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2_ws/build/merge_arrays -- -j4 -l4
+[0.140s] [35m[1mConsolidate compiler generated dependencies of target merge_arrays_node[0m
+[0.165s] [ 50%] Built target listener
+[0.174s] [ 75%] [32mBuilding CXX object CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o[0m
+[5.136s] [01m[K/home/ros/ros2_ws/src/merge_arrays/src/merge_arrays_node.cpp:19:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ does not name a type; did you mean ‘[01m[Kstdin[m[K’?
+[5.136s]    19 |           [01;31m[Kstring[m[K subscribe;
+[5.136s]       |           [01;31m[K^~~~~~[m[K
+[5.136s]       |           [32m[Kstdin[m[K
+[9.202s] gmake[2]: *** [CMakeFiles/merge_arrays_node.dir/build.make:76: CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o] Error 1
+[9.203s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/merge_arrays_node.dir/all] Error 2
+[9.203s] gmake: *** [Makefile:146: all] Error 2
+[9.209s] Invoked command in '/home/ros/ros2_ws/build/merge_arrays' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/ros2_ws/install/launch_testing_examples:/home/ros/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ros/ros2_ws/install/examples_rclpy_minimal_service:/home/ros/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_client:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ros/ros2_ws/install/examples_rclpy_guard_conditions:/home/ros/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2_ws/build/merge_arrays -- -j4 -l4

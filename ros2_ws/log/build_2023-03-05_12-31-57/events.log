@@ -1,0 +1,164 @@
+[0.000000] (-) TimerEvent: {}
+[0.001919] (merge_arrays) JobQueued: {'identifier': 'merge_arrays', 'dependencies': OrderedDict()}
+[0.002013] (merge_arrays) JobStarted: {'identifier': 'merge_arrays'}
+[0.028452] (merge_arrays) JobProgress: {'identifier': 'merge_arrays', 'progress': 'cmake'}
+[0.034747] (merge_arrays) JobProgress: {'identifier': 'merge_arrays', 'progress': 'build'}
+[0.034931] (merge_arrays) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/ros2_ws/build/merge_arrays', '--', '-j4', '-l4'], 'cwd': '/home/ros/ros2_ws/build/merge_arrays', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/ros/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/ros/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros/ros2_ws/src/merge_arrays/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1565'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ros/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ROS:@/tmp/.ICE-unix/1541,unix/ROS:/tmp/.ICE-unix/1541'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/157cd786_84ba_4eb6_b302_233a36284147'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4D6K11'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '24'), ('AMENT_PREFIX_PATH', '/home/ros/ros2_ws/install/my_package:/home/ros/ros2_ws/install/merge_arrays:/home/ros/ros2_ws/install/launch_testing_examples:/home/ros/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ros/ros2_ws/install/examples_rclpy_minimal_service:/home/ros/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_client:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ros/ros2_ws/install/examples_rclpy_guard_conditions:/home/ros/ros2_ws/install/examples_rclpy_executors:/home/ros/ros2_ws/install/examples_rclcpp_wait_set:/home/ros/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/ros/ros2_ws/install/examples_rclcpp_minimal_timer:/home/ros/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/ros/ros2_ws/install/examples_rclcpp_minimal_service:/home/ros/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/ros/ros2_ws/install/examples_rclcpp_minimal_composition:/home/ros/ros2_ws/install/examples_rclcpp_minimal_client:/home/ros/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/ros/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/ros/ros2_ws/install/examples_rclcpp_cbg_executor:/home/ros/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros/ros2_ws/build/merge_arrays'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ros/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/ros/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/ros/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/ros/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/ros/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/ros/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/ros/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/ros/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ros/ros2_ws/install/my_package:/home/ros/ros2_ws/install/merge_arrays:/home/ros/ros2_ws/install/examples_rclcpp_wait_set:/home/ros/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/ros/ros2_ws/install/examples_rclcpp_minimal_timer:/home/ros/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/ros/ros2_ws/install/examples_rclcpp_minimal_service:/home/ros/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/ros/ros2_ws/install/examples_rclcpp_minimal_composition:/home/ros/ros2_ws/install/examples_rclcpp_minimal_client:/home/ros/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/ros/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/ros/ros2_ws/install/examples_rclcpp_cbg_executor:/home/ros/ros2_ws/install/examples_rclcpp_async_client:/home/ros/ros2_ws/install/launch_testing_examples:/home/ros/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ros/ros2_ws/install/examples_rclpy_minimal_service:/home/ros/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_client:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ros/ros2_ws/install/examples_rclpy_guard_conditions:/home/ros/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble')]), 'shell': False}
+[0.099691] (-) TimerEvent: {}
+[0.151431] (merge_arrays) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target merge_arrays_node\x1b[0m\n'}
+[0.185712] (merge_arrays) StdoutLine: {'line': b'[ 50%] Built target listener\n'}
+[0.186172] (merge_arrays) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o\x1b[0m\n'}
+[0.200639] (-) TimerEvent: {}
+[0.302229] (-) TimerEvent: {}
+[0.404527] (-) TimerEvent: {}
+[0.496139] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros2_ws/src/merge_arrays/src/merge_arrays_node.cpp:44:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kempty character constant\n'}
+[0.496410] (merge_arrays) StderrLine: {'line': b"   44 |         char* temp = \x1b[01;31m\x1b[K''\x1b[m\x1b[K;\n"}
+[0.496535] (merge_arrays) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[0.506547] (-) TimerEvent: {}
+[0.607359] (-) TimerEvent: {}
+[0.709218] (-) TimerEvent: {}
+[0.810964] (-) TimerEvent: {}
+[0.912134] (-) TimerEvent: {}
+[1.013219] (-) TimerEvent: {}
+[1.114128] (-) TimerEvent: {}
+[1.215295] (-) TimerEvent: {}
+[1.316026] (-) TimerEvent: {}
+[1.416872] (-) TimerEvent: {}
+[1.518303] (-) TimerEvent: {}
+[1.619739] (-) TimerEvent: {}
+[1.720316] (-) TimerEvent: {}
+[1.821639] (-) TimerEvent: {}
+[1.922523] (-) TimerEvent: {}
+[2.023651] (-) TimerEvent: {}
+[2.124899] (-) TimerEvent: {}
+[2.226116] (-) TimerEvent: {}
+[2.327539] (-) TimerEvent: {}
+[2.428020] (-) TimerEvent: {}
+[2.529594] (-) TimerEvent: {}
+[2.630892] (-) TimerEvent: {}
+[2.731526] (-) TimerEvent: {}
+[2.832867] (-) TimerEvent: {}
+[2.933950] (-) TimerEvent: {}
+[3.035992] (-) TimerEvent: {}
+[3.137552] (-) TimerEvent: {}
+[3.239967] (-) TimerEvent: {}
+[3.340512] (-) TimerEvent: {}
+[3.441158] (-) TimerEvent: {}
+[3.542477] (-) TimerEvent: {}
+[3.643292] (-) TimerEvent: {}
+[3.745168] (-) TimerEvent: {}
+[3.839326] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros2_ws/src/merge_arrays/src/merge_arrays_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MergeArrays::topic_callback(const String&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.839560] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros2_ws/src/merge_arrays/src/merge_arrays_node.cpp:44:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kchar\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.839679] (merge_arrays) StderrLine: {'line': b"   44 |         char* temp = \x1b[01;31m\x1b[K''\x1b[m\x1b[K;\n"}
+[3.839820] (merge_arrays) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[3.839915] (merge_arrays) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.840094] (merge_arrays) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[Kchar\x1b[m\x1b[K\n'}
+[3.840193] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros2_ws/src/merge_arrays/src/merge_arrays_node.cpp:46:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunnecessary parentheses in declaration of \xe2\x80\x98\x1b[01m\x1b[Ktemp\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses\x07-Wparentheses\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.840289] (merge_arrays) StderrLine: {'line': b'   46 |         std::string\x1b[01;35m\x1b[K(temp)\x1b[m\x1b[K;\n'}
+[3.840380] (merge_arrays) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.840469] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros2_ws/src/merge_arrays/src/merge_arrays_node.cpp:46:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kremove parentheses\n'}
+[3.840560] (merge_arrays) StderrLine: {'line': b'   46 |         std::string\x1b[01;36m\x1b[K(temp)\x1b[m\x1b[K;\n'}
+[3.840670] (merge_arrays) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.840760] (merge_arrays) StderrLine: {'line': b'      |                    \x1b[31m\x1b[K-\x1b[m\x1b[K    \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[3.840850] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros2_ws/src/merge_arrays/src/merge_arrays_node.cpp:46:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kconflicting declaration \xe2\x80\x98\x1b[01m\x1b[Kstd::string temp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.841003] (merge_arrays) StderrLine: {'line': b'   46 |         std::string(\x1b[01;31m\x1b[Ktemp\x1b[m\x1b[K);\n'}
+[3.841158] (merge_arrays) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.841359] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros2_ws/src/merge_arrays/src/merge_arrays_node.cpp:44:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration as \xe2\x80\x98\x1b[01m\x1b[Kchar* temp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.841485] (merge_arrays) StderrLine: {'line': b"   44 |         char* \x1b[01;36m\x1b[Ktemp\x1b[m\x1b[K = '';\n"}
+[3.841754] (merge_arrays) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.842200] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros2_ws/src/merge_arrays/src/merge_arrays_node.cpp:47:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kconst string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[3.842324] (merge_arrays) StderrLine: {'line': b'   47 |         subscribe = \x1b[01;31m\x1b[Ktemp\x1b[m\x1b[K;\n'}
+[3.842423] (merge_arrays) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.842829] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[3.842988] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/ros2_ws/src/merge_arrays/src/merge_arrays_node.cpp:4\x1b[m\x1b[K:\n'}
+[3.843152] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:799:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::_If_sv<_Tp, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _Tp&) [with _Tp = _Tp; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.843449] (merge_arrays) StderrLine: {'line': b'  799 |        \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const _Tp& __svt)\n'}
+[3.843556] (merge_arrays) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.844007] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:799:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.844866] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/ratio:39\x1b[m\x1b[K,\n'}
+[3.844962] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/chrono:39\x1b[m\x1b[K,\n'}
+[3.845053] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/ros2_ws/src/merge_arrays/src/merge_arrays_node.cpp:1\x1b[m\x1b[K:\n'}
+[3.845140] (-) TimerEvent: {}
+[3.845432] (merge_arrays) StderrLine: {'line': b'/usr/include/c++/11/type_traits: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<bool _Cond, class _Tp> using enable_if_t = typename std::enable_if::type [with bool _Cond = false; _Tp = std::__cxx11::basic_string<char>&]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.845577] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:125:8:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> template<class _Tp, class _Res> using _If_sv = std::enable_if_t<std::__and_<std::is_convertible<const _Tp&, std::basic_string_view<_CharT, _Traits> >, std::__not_<std::is_convertible<const _Tp*, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>*> >, std::__not_<std::is_convertible<const _Tp&, const _CharT*> > >::value, _Res> [with _Tp = char*; _Res = std::__cxx11::basic_string<char>&; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.845710] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:799:8:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> std::__cxx11::basic_string<char>::_If_sv<_Tp, std::__cxx11::basic_string<char>&> std::__cxx11::basic_string<char>::operator=<_Tp>(const _Tp&) [with _Tp = char*]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.845812] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros2_ws/src/merge_arrays/src/merge_arrays_node.cpp:47:14:\x1b[m\x1b[K   required from here\n'}
+[3.845910] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2585:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, std::__cxx11::basic_string<char>&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.846007] (merge_arrays) StderrLine: {'line': b' 2585 |     using \x1b[01;31m\x1b[Kenable_if_t\x1b[m\x1b[K = typename enable_if<_Cond, _Tp>::type;\n'}
+[3.846103] (merge_arrays) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.846198] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[3.846293] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/ros2_ws/src/merge_arrays/src/merge_arrays_node.cpp:4\x1b[m\x1b[K:\n'}
+[3.846389] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:679:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]\x1b[m\x1b[K\xe2\x80\x99 (near match)\n'}
+[3.846488] (merge_arrays) StderrLine: {'line': b'  679 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const basic_string& __str)\n'}
+[3.846583] (merge_arrays) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.846680] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:679:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  passing \xe2\x80\x98\x1b[01m\x1b[Kconst string*\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>*\x1b[m\x1b[K\xe2\x80\x99} as \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 argument discards qualifiers\n'}
+[3.846772] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:689:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _CharT*) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]\x1b[m\x1b[K\xe2\x80\x99 (near match)\n'}
+[3.846873] (merge_arrays) StderrLine: {'line': b'  689 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const _CharT* __s)\n'}
+[3.846962] (merge_arrays) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.847051] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:689:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  passing \xe2\x80\x98\x1b[01m\x1b[Kconst string*\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>*\x1b[m\x1b[K\xe2\x80\x99} as \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 argument discards qualifiers\n'}
+[3.847155] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:700:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(_CharT) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]\x1b[m\x1b[K\xe2\x80\x99 (near match)\n'}
+[3.847250] (merge_arrays) StderrLine: {'line': b'  700 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(_CharT __c)\n'}
+[3.847339] (merge_arrays) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.847427] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:700:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[3.847534] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros2_ws/src/merge_arrays/src/merge_arrays_node.cpp:47:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kchar\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.847634] (merge_arrays) StderrLine: {'line': b'   47 |         subscribe = \x1b[01;31m\x1b[Ktemp\x1b[m\x1b[K;\n'}
+[3.847728] (merge_arrays) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.847823] (merge_arrays) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.847918] (merge_arrays) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[3.848012] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[3.848106] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/ros2_ws/src/merge_arrays/src/merge_arrays_node.cpp:4\x1b[m\x1b[K:\n'}
+[3.848210] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:717:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]\x1b[m\x1b[K\xe2\x80\x99 (near match)\n'}
+[3.848331] (merge_arrays) StderrLine: {'line': b'  717 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(basic_string&& __str)\n'}
+[3.848427] (merge_arrays) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.848523] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:717:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  passing \xe2\x80\x98\x1b[01m\x1b[Kconst string*\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>*\x1b[m\x1b[K\xe2\x80\x99} as \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 argument discards qualifiers\n'}
+[3.848786] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:785:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::initializer_list<_Tp>) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.848912] (merge_arrays) StderrLine: {'line': b'  785 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(initializer_list<_CharT> __l)\n'}
+[3.849026] (merge_arrays) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.849123] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:785:42:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::initializer_list<char>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.849221] (merge_arrays) StderrLine: {'line': b'  785 |       operator=(\x1b[01;36m\x1b[Kinitializer_list<_CharT> __l\x1b[m\x1b[K)\n'}
+[3.849317] (merge_arrays) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.946600] (-) TimerEvent: {}
+[4.048167] (-) TimerEvent: {}
+[4.149629] (-) TimerEvent: {}
+[4.251849] (-) TimerEvent: {}
+[4.352270] (-) TimerEvent: {}
+[4.452966] (-) TimerEvent: {}
+[4.554411] (-) TimerEvent: {}
+[4.655602] (-) TimerEvent: {}
+[4.756965] (-) TimerEvent: {}
+[4.857472] (-) TimerEvent: {}
+[4.969449] (-) TimerEvent: {}
+[5.070346] (-) TimerEvent: {}
+[5.170836] (-) TimerEvent: {}
+[5.271460] (-) TimerEvent: {}
+[5.372879] (-) TimerEvent: {}
+[5.474250] (-) TimerEvent: {}
+[5.575148] (-) TimerEvent: {}
+[5.675709] (-) TimerEvent: {}
+[5.776807] (-) TimerEvent: {}
+[5.877966] (-) TimerEvent: {}
+[5.978575] (-) TimerEvent: {}
+[6.080827] (-) TimerEvent: {}
+[6.182623] (-) TimerEvent: {}
+[6.283441] (-) TimerEvent: {}
+[6.383977] (-) TimerEvent: {}
+[6.484433] (-) TimerEvent: {}
+[6.586311] (-) TimerEvent: {}
+[6.687228] (-) TimerEvent: {}
+[6.787992] (-) TimerEvent: {}
+[6.889466] (-) TimerEvent: {}
+[6.990781] (-) TimerEvent: {}
+[7.091488] (-) TimerEvent: {}
+[7.192418] (-) TimerEvent: {}
+[7.293505] (-) TimerEvent: {}
+[7.394343] (-) TimerEvent: {}
+[7.495972] (-) TimerEvent: {}
+[7.597225] (-) TimerEvent: {}
+[7.697732] (-) TimerEvent: {}
+[7.766404] (merge_arrays) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/merge_arrays_node.dir/build.make:76: CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o] Error 1\n'}
+[7.767174] (merge_arrays) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/merge_arrays_node.dir/all] Error 2\n'}
+[7.767454] (merge_arrays) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.770926] (merge_arrays) CommandEnded: {'returncode': 2}
+[7.797906] (-) TimerEvent: {}
+[7.872004] (merge_arrays) JobEnded: {'identifier': 'merge_arrays', 'rc': 2}
+[7.874664] (-) EventReactorShutdown: {}

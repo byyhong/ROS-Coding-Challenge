@@ -1,0 +1,33 @@
+[0.043s] Invoking command in '/home/ros/ros2_ws/build/merge_arrays': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/ros2_ws/install/launch_testing_examples:/home/ros/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ros/ros2_ws/install/examples_rclpy_minimal_service:/home/ros/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_client:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ros/ros2_ws/install/examples_rclpy_guard_conditions:/home/ros/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2_ws/build/merge_arrays -- -j4 -l4
+[0.139s] [35m[1mConsolidate compiler generated dependencies of target merge_arrays_node[0m
+[0.164s] [ 50%] Built target listener
+[0.172s] [ 75%] [32mBuilding CXX object CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o[0m
+[0.475s] [01m[K/home/ros/ros2_ws/src/merge_arrays/src/merge_arrays_node.cpp:44:22:[m[K [01;31m[Kerror: [m[Kempty character constant
+[0.475s]    44 |         char* temp = [01;31m[K''[m[K;
+[0.475s]       |                      [01;31m[K^~[m[K
+[3.839s] [01m[K/home/ros/ros2_ws/src/merge_arrays/src/merge_arrays_node.cpp:[m[K In member function ‘[01m[Kvoid MergeArrays::topic_callback(const String&) const[m[K’:
+[3.839s] [01m[K/home/ros/ros2_ws/src/merge_arrays/src/merge_arrays_node.cpp:44:22:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kchar[m[K’ to ‘[01m[Kchar*[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.839s]    44 |         char* temp = [01;31m[K''[m[K;
+[3.839s]       |                      [01;31m[K^~[m[K
+[3.839s]       |                      [01;31m[K|[m[K
+[3.839s]       |                      [01;31m[Kchar[m[K
+[3.839s] [01m[K/home/ros/ros2_ws/src/merge_arrays/src/merge_arrays_node.cpp:46:20:[m[K [01;35m[Kwarning: [m[Kunnecessary parentheses in declaration of ‘[01m[Ktemp[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+[3.839s]    46 |         std::string[01;35m[K(temp)[m[K;
+[3.839s]       |                    [01;35m[K^~~~~~[m[K
+[3.839s] [01m[K/home/ros/ros2_ws/src/merge_arrays/src/merge_arrays_node.cpp:46:20:[m[K [01;36m[Knote: [m[Kremove parentheses
+[3.841s]    46 |         std::string[01;36m[K(temp)[m[K;
+[3.841s]       |                    [01;36m[K^~~~~~[m[K
+[3.841s]       |                    [31m[K-[m[K    [31m[K-[m[K
+[3.842s] [01m[K/home/ros/ros2_ws/src/merge_arrays/src/merge_arrays_node.cpp:46:21:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kstd::string temp[m[K’
+[3.842s]    46 |         std::string([01;31m[Ktemp[m[K);
+[3.842s]       |                     [01;31m[K^~~~[m[K
+[3.842s] [01m[K/home/ros/ros2_ws/src/merge_arrays/src/merge_arrays_node.cpp:44:15:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kchar* temp[m[K’
+[3.842s]    44 |         char* [01;36m[Ktemp[m[K = '';
+[3.842s]       |               [01;36m[K^~~~[m[K
+[3.842s] [01m[K/home/ros/ros2_ws/src/merge_arrays/src/merge_arrays_node.cpp:47:19:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[KMergeArrays::subscribe[m[K’ in read-only object
+[3.842s]    47 |         [01;31m[Ksubscribe = temp[m[K;
+[3.842s]       |         [01;31m[K~~~~~~~~~~^~~~~~[m[K
+[7.719s] gmake[2]: *** [CMakeFiles/merge_arrays_node.dir/build.make:76: CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o] Error 1
+[7.720s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/merge_arrays_node.dir/all] Error 2
+[7.721s] gmake: *** [Makefile:146: all] Error 2
+[7.723s] Invoked command in '/home/ros/ros2_ws/build/merge_arrays' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/ros2_ws/install/launch_testing_examples:/home/ros/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ros/ros2_ws/install/examples_rclpy_minimal_service:/home/ros/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_client:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ros/ros2_ws/install/examples_rclpy_guard_conditions:/home/ros/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2_ws/build/merge_arrays -- -j4 -l4

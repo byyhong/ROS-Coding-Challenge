@@ -1,0 +1,23 @@
+[0.092s] Invoking command in '/home/ros/ros2_ws/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2_ws/build/examples_rclcpp_minimal_client -- -j4 -l4
+[0.283s] [100%] Built target client_main
+[0.307s] Invoked command in '/home/ros/ros2_ws/build/examples_rclcpp_minimal_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2_ws/build/examples_rclcpp_minimal_client -- -j4 -l4
+[0.454s] Invoking command in '/home/ros/ros2_ws/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/ros2_ws/build/examples_rclcpp_minimal_client
+[0.465s] -- Install configuration: ""
+[0.466s] -- Execute custom install script
+[0.469s] -- Up-to-date symlink: /home/ros/ros2_ws/install/examples_rclcpp_minimal_client/lib/examples_rclcpp_minimal_client/client_main
+[0.476s] -- Up-to-date symlink: /home/ros/ros2_ws/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_client
+[0.477s] -- Up-to-date symlink: /home/ros/ros2_ws/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_client
+[0.477s] -- Up-to-date symlink: /home/ros/ros2_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/ament_prefix_path.sh
+[0.480s] -- Up-to-date symlink: /home/ros/ros2_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/ament_prefix_path.dsv
+[0.480s] -- Up-to-date symlink: /home/ros/ros2_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/path.sh
+[0.494s] -- Up-to-date symlink: /home/ros/ros2_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/path.dsv
+[0.495s] -- Up-to-date symlink: /home/ros/ros2_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.bash
+[0.495s] -- Up-to-date symlink: /home/ros/ros2_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.sh
+[0.495s] -- Up-to-date symlink: /home/ros/ros2_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.zsh
+[0.495s] -- Up-to-date symlink: /home/ros/ros2_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.dsv
+[0.496s] -- Symlinking: /home/ros/ros2_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.dsv
+[0.525s] -- Up-to-date symlink: /home/ros/ros2_ws/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/packages/examples_rclcpp_minimal_client
+[0.527s] -- Up-to-date symlink: /home/ros/ros2_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/cmake/examples_rclcpp_minimal_clientConfig.cmake
+[0.529s] -- Up-to-date symlink: /home/ros/ros2_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/cmake/examples_rclcpp_minimal_clientConfig-version.cmake
+[0.530s] -- Up-to-date symlink: /home/ros/ros2_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.xml
+[0.534s] Invoked command in '/home/ros/ros2_ws/build/examples_rclcpp_minimal_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/ros2_ws/build/examples_rclcpp_minimal_client

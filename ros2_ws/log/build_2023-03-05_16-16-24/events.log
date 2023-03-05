@@ -1,0 +1,3 @@
+[0.000000] (-) TimerEvent: {}
+[0.000844] (-) JobUnselected: {'identifier': 'merge_arrays'}
+[0.001605] (-) EventReactorShutdown: {}

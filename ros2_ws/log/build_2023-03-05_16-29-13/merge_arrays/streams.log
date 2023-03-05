@@ -1,0 +1,26 @@
+[1.337s] Invoking command in '/home/ros/ros2_ws/src/merge_arrays': PYTHONPATH=/home/ros/ros2_ws/build/merge_arrays/prefix_override:/home/ros/ros2_ws/install/merge_arrays/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/merge_arrays build --build-base /home/ros/ros2_ws/build/merge_arrays/build install --record /home/ros/ros2_ws/build/merge_arrays/install.log --single-version-externally-managed
+[1.715s] running egg_info
+[1.716s] writing ../../build/merge_arrays/merge_arrays.egg-info/PKG-INFO
+[1.717s] writing dependency_links to ../../build/merge_arrays/merge_arrays.egg-info/dependency_links.txt
+[1.717s] writing entry points to ../../build/merge_arrays/merge_arrays.egg-info/entry_points.txt
+[1.718s] writing requirements to ../../build/merge_arrays/merge_arrays.egg-info/requires.txt
+[1.718s] writing top-level names to ../../build/merge_arrays/merge_arrays.egg-info/top_level.txt
+[1.722s] reading manifest file '../../build/merge_arrays/merge_arrays.egg-info/SOURCES.txt'
+[1.724s] writing manifest file '../../build/merge_arrays/merge_arrays.egg-info/SOURCES.txt'
+[1.724s] running build
+[1.725s] running build_py
+[1.725s] copying merge_arrays/merge_arrays_node.py -> /home/ros/ros2_ws/build/merge_arrays/build/lib/merge_arrays
+[1.726s] running install
+[1.727s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.727s]   warnings.warn(
+[1.728s] running install_lib
+[1.728s] copying /home/ros/ros2_ws/build/merge_arrays/build/lib/merge_arrays/merge_arrays_node.py -> /home/ros/ros2_ws/install/merge_arrays/lib/python3.10/site-packages/merge_arrays
+[1.730s] byte-compiling /home/ros/ros2_ws/install/merge_arrays/lib/python3.10/site-packages/merge_arrays/merge_arrays_node.py to merge_arrays_node.cpython-310.pyc
+[1.734s] running install_data
+[1.736s] running install_egg_info
+[1.738s] removing '/home/ros/ros2_ws/install/merge_arrays/lib/python3.10/site-packages/merge_arrays-0.0.0-py3.10.egg-info' (and everything under it)
+[1.738s] Copying ../../build/merge_arrays/merge_arrays.egg-info to /home/ros/ros2_ws/install/merge_arrays/lib/python3.10/site-packages/merge_arrays-0.0.0-py3.10.egg-info
+[1.741s] running install_scripts
+[1.792s] Installing merge_arrays_node script to /home/ros/ros2_ws/install/merge_arrays/lib/merge_arrays
+[1.795s] writing list of installed files to '/home/ros/ros2_ws/build/merge_arrays/install.log'
+[1.833s] Invoked command in '/home/ros/ros2_ws/src/merge_arrays' returned '0': PYTHONPATH=/home/ros/ros2_ws/build/merge_arrays/prefix_override:/home/ros/ros2_ws/install/merge_arrays/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/merge_arrays build --build-base /home/ros/ros2_ws/build/merge_arrays/build install --record /home/ros/ros2_ws/build/merge_arrays/install.log --single-version-externally-managed

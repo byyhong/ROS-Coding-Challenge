@@ -1,0 +1,128 @@
+[0.000000] (-) TimerEvent: {}
+[0.000279] (merge_arrays) JobQueued: {'identifier': 'merge_arrays', 'dependencies': OrderedDict()}
+[0.000401] (merge_arrays) JobStarted: {'identifier': 'merge_arrays'}
+[0.025503] (merge_arrays) JobProgress: {'identifier': 'merge_arrays', 'progress': 'cmake'}
+[0.026651] (merge_arrays) JobProgress: {'identifier': 'merge_arrays', 'progress': 'build'}
+[0.038456] (merge_arrays) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/ros2_ws/build/merge_arrays', '--', '-j4', '-l4'], 'cwd': '/home/ros/ros2_ws/build/merge_arrays', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/ros/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/ros/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros/ros2_ws/src/merge_arrays/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1772'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ros/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ROS:@/tmp/.ICE-unix/1541,unix/ROS:/tmp/.ICE-unix/1541'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0f327135_7baf_4831_9f0a_084c2d5c596d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4D6K11'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '24'), ('AMENT_PREFIX_PATH', '/home/ros/ros2_ws/install/my_package:/home/ros/ros2_ws/install/merge_arrays:/home/ros/ros2_ws/install/launch_testing_examples:/home/ros/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ros/ros2_ws/install/examples_rclpy_minimal_service:/home/ros/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_client:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ros/ros2_ws/install/examples_rclpy_guard_conditions:/home/ros/ros2_ws/install/examples_rclpy_executors:/home/ros/ros2_ws/install/examples_rclcpp_wait_set:/home/ros/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/ros/ros2_ws/install/examples_rclcpp_minimal_timer:/home/ros/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/ros/ros2_ws/install/examples_rclcpp_minimal_service:/home/ros/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/ros/ros2_ws/install/examples_rclcpp_minimal_composition:/home/ros/ros2_ws/install/examples_rclcpp_minimal_client:/home/ros/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/ros/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/ros/ros2_ws/install/examples_rclcpp_cbg_executor:/home/ros/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros/ros2_ws/build/merge_arrays'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ros/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/ros/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/ros/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/ros/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/ros/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/ros/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/ros/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/ros/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ros/ros2_ws/install/my_package:/home/ros/ros2_ws/install/merge_arrays:/home/ros/ros2_ws/install/examples_rclcpp_wait_set:/home/ros/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/ros/ros2_ws/install/examples_rclcpp_minimal_timer:/home/ros/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/ros/ros2_ws/install/examples_rclcpp_minimal_service:/home/ros/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/ros/ros2_ws/install/examples_rclcpp_minimal_composition:/home/ros/ros2_ws/install/examples_rclcpp_minimal_client:/home/ros/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/ros/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/ros/ros2_ws/install/examples_rclcpp_cbg_executor:/home/ros/ros2_ws/install/examples_rclcpp_async_client:/home/ros/ros2_ws/install/launch_testing_examples:/home/ros/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ros/ros2_ws/install/examples_rclpy_minimal_service:/home/ros/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_client:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ros/ros2_ws/install/examples_rclpy_guard_conditions:/home/ros/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble')]), 'shell': False}
+[0.098748] (-) TimerEvent: {}
+[0.127430] (merge_arrays) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o\x1b[0m\n'}
+[0.131884] (merge_arrays) StdoutLine: {'line': b'[ 75%] Built target listener\n'}
+[0.199981] (-) TimerEvent: {}
+[0.301983] (-) TimerEvent: {}
+[0.405318] (-) TimerEvent: {}
+[0.507598] (-) TimerEvent: {}
+[0.608169] (-) TimerEvent: {}
+[0.709027] (-) TimerEvent: {}
+[0.809497] (-) TimerEvent: {}
+[0.911687] (-) TimerEvent: {}
+[1.013743] (-) TimerEvent: {}
+[1.114906] (-) TimerEvent: {}
+[1.215360] (-) TimerEvent: {}
+[1.315878] (-) TimerEvent: {}
+[1.417121] (-) TimerEvent: {}
+[1.519178] (-) TimerEvent: {}
+[1.620271] (-) TimerEvent: {}
+[1.722009] (-) TimerEvent: {}
+[1.823173] (-) TimerEvent: {}
+[1.924397] (-) TimerEvent: {}
+[2.025505] (-) TimerEvent: {}
+[2.126798] (-) TimerEvent: {}
+[2.227283] (-) TimerEvent: {}
+[2.327789] (-) TimerEvent: {}
+[2.428762] (-) TimerEvent: {}
+[2.530363] (-) TimerEvent: {}
+[2.630898] (-) TimerEvent: {}
+[2.731409] (-) TimerEvent: {}
+[2.832499] (-) TimerEvent: {}
+[2.933831] (-) TimerEvent: {}
+[3.036489] (-) TimerEvent: {}
+[3.138523] (-) TimerEvent: {}
+[3.239806] (-) TimerEvent: {}
+[3.341456] (-) TimerEvent: {}
+[3.442299] (-) TimerEvent: {}
+[3.543134] (-) TimerEvent: {}
+[3.644141] (-) TimerEvent: {}
+[3.646837] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ros/ros2_ws/src/merge_arrays/src/merge_arrays_node.cpp:2\x1b[m\x1b[K:\n'}
+[3.647365] (merge_arrays) StderrLine: {'line': b'/usr/include/c++/11/functional: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstruct std::_Bind_check_arity<void (MergeArrays::*)(const std_msgs::msg::String_<std::allocator<void> >&), MergeArrays*>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.647494] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:768:12:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstruct std::_Bind_helper<false, void (MergeArrays::*)(const std_msgs::msg::String_<std::allocator<void> >&), MergeArrays*>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.647607] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:789:5:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Func, class ... _BoundArgs> typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type std::bind(_Func&&, _BoundArgs&& ...) [with _Func = void (MergeArrays::*)(const std_msgs::msg::String_<std::allocator<void> >&); _BoundArgs = {MergeArrays*}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.647719] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros2_ws/src/merge_arrays/src/merge_arrays_node.cpp:25:23:\x1b[m\x1b[K   required from here\n'}
+[3.647839] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:756:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kstatic assertion failed: Wrong number of arguments for pointer-to-member\n'}
+[3.647978] (merge_arrays) StderrLine: {'line': b'  755 |       static_assert(_Varargs::\x1b[01;31m\x1b[Kvalue\x1b[m\x1b[K\n'}
+[3.648072] (merge_arrays) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K~~~~~\x1b[m\x1b[K\n'}
+[3.648163] (merge_arrays) StderrLine: {'line': b'  756 | \x1b[01;31m\x1b[K                    ? sizeof...(_BoundArgs) >= _Arity::value + 1\x1b[m\x1b[K\n'}
+[3.648256] (merge_arrays) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.648347] (merge_arrays) StderrLine: {'line': b'  757 | \x1b[01;31m\x1b[K                    : sizeof...(_BoundArgs) == _Arity::value + 1\x1b[m\x1b[K,\n'}
+[3.648439] (merge_arrays) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.648531] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:756:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K(false ? (1 >= (((long unsigned int)std::integral_constant<long unsigned int, 1>::value) + 1)) : (1 == (((long unsigned int)std::integral_constant<long unsigned int, 1>::value) + 1)))\x1b[m\x1b[K\xe2\x80\x99 evaluates to false\n'}
+[3.654425] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros2_ws/src/merge_arrays/src/merge_arrays_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMergeArrays::MergeArrays()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.654757] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros2_ws/src/merge_arrays/src/merge_arrays_node.cpp:24:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KMergeArrays::create_wall_timer(std::chrono::milliseconds, std::_Bind_helper<false, void (MergeArrays::*)(const std_msgs::msg::String_<std::allocator<void> >&), MergeArrays*>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.654895] (merge_arrays) StderrLine: {'line': b'   24 |       timer_ = \x1b[01;31m\x1b[Kthis->create_wall_timer(\x1b[m\x1b[K\n'}
+[3.656212] (merge_arrays) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[3.656520] (merge_arrays) StderrLine: {'line': b'   25 | \x1b[01;31m\x1b[K      500ms, std::bind(&MergeArrays::timer_callback, this))\x1b[m\x1b[K;\n'}
+[3.657088] (merge_arrays) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.657205] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[3.657316] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[3.657410] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.657516] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/ros2_ws/src/merge_arrays/src/merge_arrays_node.cpp:6\x1b[m\x1b[K:\n'}
+[3.657609] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:238:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class DurationRepT, class DurationT, class CallbackT> typename rclcpp::WallTimer<CallbackT>::SharedPtr rclcpp::Node::create_wall_timer(std::chrono::duration<_Rep1, _Period1>, CallbackT, rclcpp::CallbackGroup::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.657705] (merge_arrays) StderrLine: {'line': b'  238 |   \x1b[01;36m\x1b[Kcreate_wall_timer\x1b[m\x1b[K(\n'}
+[3.657793] (merge_arrays) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.657881] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:238:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.657971] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321\x1b[m\x1b[K,\n'}
+[3.658059] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[3.658149] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[3.658282] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.658376] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/ros2_ws/src/merge_arrays/src/merge_arrays_node.cpp:6\x1b[m\x1b[K:\n'}
+[3.658476] (merge_arrays) StderrLine: {'line': b'/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class DurationRepT, class DurationT, class CallbackT> typename rclcpp::WallTimer<CallbackT>::SharedPtr rclcpp::Node::create_wall_timer(std::chrono::duration<_Rep1, _Period1>, CallbackT, rclcpp::CallbackGroup::SharedPtr) [with DurationRepT = long int; DurationT = std::ratio<1, 1000>; CallbackT = std::_Bind<void (MergeArrays::*(MergeArrays*))(const std_msgs::msg::String_<std::allocator<void> >&)>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.658578] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros2_ws/src/merge_arrays/src/merge_arrays_node.cpp:24:39:\x1b[m\x1b[K   required from here\n'}
+[3.658667] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:110:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.658758] (merge_arrays) StderrLine: {'line': b'  110 | \x1b[01;31m\x1b[KNode\x1b[m\x1b[K::create_wall_timer(\n'}
+[3.658846] (merge_arrays) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.658933] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:110:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.659022] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:110:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kinvalid template non-type parameter\n'}
+[3.744421] (-) TimerEvent: {}
+[3.848513] (-) TimerEvent: {}
+[3.949474] (-) TimerEvent: {}
+[4.050194] (-) TimerEvent: {}
+[4.151172] (-) TimerEvent: {}
+[4.252547] (-) TimerEvent: {}
+[4.353002] (-) TimerEvent: {}
+[4.453753] (-) TimerEvent: {}
+[4.555783] (-) TimerEvent: {}
+[4.657000] (-) TimerEvent: {}
+[4.758179] (-) TimerEvent: {}
+[4.859220] (-) TimerEvent: {}
+[4.960961] (-) TimerEvent: {}
+[5.062015] (-) TimerEvent: {}
+[5.163212] (-) TimerEvent: {}
+[5.264068] (-) TimerEvent: {}
+[5.366192] (-) TimerEvent: {}
+[5.468547] (-) TimerEvent: {}
+[5.569364] (-) TimerEvent: {}
+[5.671185] (-) TimerEvent: {}
+[5.774578] (-) TimerEvent: {}
+[5.876052] (-) TimerEvent: {}
+[5.977037] (-) TimerEvent: {}
+[6.078226] (-) TimerEvent: {}
+[6.180275] (-) TimerEvent: {}
+[6.284632] (-) TimerEvent: {}
+[6.386166] (-) TimerEvent: {}
+[6.487533] (-) TimerEvent: {}
+[6.588245] (-) TimerEvent: {}
+[6.688671] (-) TimerEvent: {}
+[6.789150] (-) TimerEvent: {}
+[6.889546] (-) TimerEvent: {}
+[6.989878] (-) TimerEvent: {}
+[7.090532] (-) TimerEvent: {}
+[7.191830] (-) TimerEvent: {}
+[7.292818] (-) TimerEvent: {}
+[7.396571] (-) TimerEvent: {}
+[7.498922] (-) TimerEvent: {}
+[7.569244] (merge_arrays) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/merge_arrays_node.dir/build.make:76: CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o] Error 1\n'}
+[7.570055] (merge_arrays) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/merge_arrays_node.dir/all] Error 2\n'}
+[7.570864] (merge_arrays) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.574668] (merge_arrays) CommandEnded: {'returncode': 2}
+[7.599074] (-) TimerEvent: {}
+[7.682012] (merge_arrays) JobEnded: {'identifier': 'merge_arrays', 'rc': 2}
+[7.685252] (-) EventReactorShutdown: {}

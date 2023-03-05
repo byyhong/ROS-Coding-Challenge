@@ -1,0 +1,121 @@
+[0.493s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'merge_arrays']
+[0.493s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['merge_arrays'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f41a3e8bc10>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f41a46b2890>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f41a46b2890>>)
+[0.543s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.543s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.543s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.543s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.543s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.543s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.543s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ros/ros2_ws'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/merge_arrays) by extensions ['ignore', 'ignore_ament_install']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/merge_arrays) by extension 'ignore'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/merge_arrays) by extension 'ignore_ament_install'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/merge_arrays) by extensions ['colcon_pkg']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/merge_arrays) by extension 'colcon_pkg'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/merge_arrays) by extensions ['colcon_meta']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/merge_arrays) by extension 'colcon_meta'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/merge_arrays) by extensions ['ros']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/merge_arrays) by extension 'ros'
+[0.567s] DEBUG:colcon.colcon_core.package_identification:Package 'src/merge_arrays' with type 'ros.ament_cmake' and name 'merge_arrays'
+[0.567s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.567s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.567s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.567s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.567s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.603s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.603s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.609s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 24 installed packages in /home/ros/ros2_ws/install
+[0.612s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 284 installed packages in /opt/ros/humble
+[0.616s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'merge_arrays' build argument 'cmake_args' from command line to 'None'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'merge_arrays' build argument 'cmake_target' from command line to 'None'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'merge_arrays' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'merge_arrays' build argument 'cmake_clean_cache' from command line to 'False'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'merge_arrays' build argument 'cmake_clean_first' from command line to 'False'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'merge_arrays' build argument 'cmake_force_configure' from command line to 'False'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'merge_arrays' build argument 'ament_cmake_args' from command line to 'None'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'merge_arrays' build argument 'catkin_cmake_args' from command line to 'None'
+[0.723s] Level 5:colcon.colcon_core.verb:set package 'merge_arrays' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.723s] DEBUG:colcon.colcon_core.verb:Building package 'merge_arrays' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros/ros2_ws/build/merge_arrays', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros/ros2_ws/install/merge_arrays', 'merge_install': False, 'path': '/home/ros/ros2_ws/src/merge_arrays', 'symlink_install': False, 'test_result_base': None}
+[0.724s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.729s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.730s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ros/ros2_ws/src/merge_arrays' with build type 'ament_cmake'
+[0.730s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ros/ros2_ws/src/merge_arrays'
+[0.737s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.737s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.737s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.781s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros/ros2_ws/build/merge_arrays': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/ros2_ws/install/launch_testing_examples:/home/ros/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ros/ros2_ws/install/examples_rclpy_minimal_service:/home/ros/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_client:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ros/ros2_ws/install/examples_rclpy_guard_conditions:/home/ros/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2_ws/build/merge_arrays -- -j4 -l4
+[8.108s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros/ros2_ws/build/merge_arrays' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/ros2_ws/install/launch_testing_examples:/home/ros/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ros/ros2_ws/install/examples_rclpy_minimal_service:/home/ros/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_client:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ros/ros2_ws/install/examples_rclpy_guard_conditions:/home/ros/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2_ws/build/merge_arrays -- -j4 -l4
+[8.171s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(merge_arrays)
+[8.178s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/install/merge_arrays' for CMake module files
+[8.179s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/install/merge_arrays' for CMake config files
+[8.179s] Level 1:colcon.colcon_core.shell:create_environment_hook('merge_arrays', 'cmake_prefix_path')
+[8.181s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/ros2_ws/install/merge_arrays/share/merge_arrays/hook/cmake_prefix_path.ps1'
+[8.182s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros/ros2_ws/install/merge_arrays/share/merge_arrays/hook/cmake_prefix_path.dsv'
+[8.183s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/ros2_ws/install/merge_arrays/share/merge_arrays/hook/cmake_prefix_path.sh'
+[8.185s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/install/merge_arrays/lib'
+[8.185s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/install/merge_arrays/bin'
+[8.185s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/install/merge_arrays/lib/pkgconfig/merge_arrays.pc'
+[8.185s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/install/merge_arrays/lib/python3.10/site-packages'
+[8.186s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/install/merge_arrays/bin'
+[8.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/install/merge_arrays/share/merge_arrays/package.ps1'
+[8.189s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros/ros2_ws/install/merge_arrays/share/merge_arrays/package.dsv'
+[8.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/install/merge_arrays/share/merge_arrays/package.sh'
+[8.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/install/merge_arrays/share/merge_arrays/package.bash'
+[8.192s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/install/merge_arrays/share/merge_arrays/package.zsh'
+[8.194s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros/ros2_ws/install/merge_arrays/share/colcon-core/packages/merge_arrays)
+[8.195s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.195s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.196s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[8.196s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.203s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.204s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.204s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.228s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.231s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros/ros2_ws/install/local_setup.ps1'
+[8.245s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ros/ros2_ws/install/_local_setup_util_ps1.py'
+[8.248s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros/ros2_ws/install/setup.ps1'
+[8.253s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros/ros2_ws/install/local_setup.sh'
+[8.256s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ros/ros2_ws/install/_local_setup_util_sh.py'
+[8.258s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros/ros2_ws/install/setup.sh'
+[8.262s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros/ros2_ws/install/local_setup.bash'
+[8.264s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros/ros2_ws/install/setup.bash'
+[8.268s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros/ros2_ws/install/local_setup.zsh'
+[8.269s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros/ros2_ws/install/setup.zsh'

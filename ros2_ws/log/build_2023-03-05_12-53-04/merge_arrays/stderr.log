@@ -1,0 +1,10 @@
+[01m[K/home/ros/ros2_ws/src/merge_arrays/src/merge_arrays_node.cpp:[m[K In constructor ‘[01m[KMergeArrays::MergeArrays()[m[K’:
+[01m[K/home/ros/ros2_ws/src/merge_arrays/src/merge_arrays_node.cpp:21:5:[m[K [01;31m[Kerror: [m[Kuninitialized reference member in ‘[01m[Kusing String = struct std_msgs::msg::String_<std::allocator<void> >&[m[K’ {aka ‘[01m[Kstruct std_msgs::msg::String_<std::allocator<void> >&[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   21 |     [01;31m[KMergeArrays[m[K()
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ros/ros2_ws/src/merge_arrays/src/merge_arrays_node.cpp:19:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd_msgs::msg::String& MergeArrays::subscribe[m[K’ should be initialized
+   19 |           std_msgs::msg::String& [01;36m[Ksubscribe[m[K;
+      |                                  [01;36m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/merge_arrays_node.dir/build.make:76: CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/merge_arrays_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

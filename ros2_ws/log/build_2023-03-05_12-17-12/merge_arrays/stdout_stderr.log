@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target merge_arrays_node[0m
+[ 50%] Built target listener
+[ 75%] [32mBuilding CXX object CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o[0m
+[01m[K/home/ros/ros2_ws/src/merge_arrays/src/merge_arrays_node.cpp:[m[K In member function ‘[01m[Kvoid MergeArrays::topic_callback(const String&) const[m[K’:
+[01m[K/home/ros/ros2_ws/src/merge_arrays/src/merge_arrays_node.cpp:44:19:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[KMergeArrays::subscribe[m[K’ in read-only object
+   44 |         [01;31m[Ksubscribe = msg.data[m[K;
+      |         [01;31m[K~~~~~~~~~~^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/merge_arrays_node.dir/build.make:76: CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/merge_arrays_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

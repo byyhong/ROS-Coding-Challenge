@@ -1,0 +1,164 @@
+[0.000000] (-) TimerEvent: {}
+[0.002215] (merge_arrays) JobQueued: {'identifier': 'merge_arrays', 'dependencies': OrderedDict()}
+[0.002329] (merge_arrays) JobStarted: {'identifier': 'merge_arrays'}
+[0.023701] (merge_arrays) JobProgress: {'identifier': 'merge_arrays', 'progress': 'cmake'}
+[0.024834] (merge_arrays) JobProgress: {'identifier': 'merge_arrays', 'progress': 'build'}
+[0.026216] (merge_arrays) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/ros2_ws/build/merge_arrays', '--', '-j4', '-l4'], 'cwd': '/home/ros/ros2_ws/build/merge_arrays', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/ros/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/ros/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros/ros2_ws/src/merge_arrays/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1565'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ros/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ROS:@/tmp/.ICE-unix/1541,unix/ROS:/tmp/.ICE-unix/1541'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/157cd786_84ba_4eb6_b302_233a36284147'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4D6K11'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '24'), ('AMENT_PREFIX_PATH', '/home/ros/ros2_ws/install/my_package:/home/ros/ros2_ws/install/merge_arrays:/home/ros/ros2_ws/install/launch_testing_examples:/home/ros/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ros/ros2_ws/install/examples_rclpy_minimal_service:/home/ros/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_client:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ros/ros2_ws/install/examples_rclpy_guard_conditions:/home/ros/ros2_ws/install/examples_rclpy_executors:/home/ros/ros2_ws/install/examples_rclcpp_wait_set:/home/ros/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/ros/ros2_ws/install/examples_rclcpp_minimal_timer:/home/ros/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/ros/ros2_ws/install/examples_rclcpp_minimal_service:/home/ros/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/ros/ros2_ws/install/examples_rclcpp_minimal_composition:/home/ros/ros2_ws/install/examples_rclcpp_minimal_client:/home/ros/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/ros/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/ros/ros2_ws/install/examples_rclcpp_cbg_executor:/home/ros/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros/ros2_ws/build/merge_arrays'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ros/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/ros/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/ros/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/ros/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/ros/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/ros/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/ros/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/ros/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ros/ros2_ws/install/my_package:/home/ros/ros2_ws/install/merge_arrays:/home/ros/ros2_ws/install/examples_rclcpp_wait_set:/home/ros/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/ros/ros2_ws/install/examples_rclcpp_minimal_timer:/home/ros/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/ros/ros2_ws/install/examples_rclcpp_minimal_service:/home/ros/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/ros/ros2_ws/install/examples_rclcpp_minimal_composition:/home/ros/ros2_ws/install/examples_rclcpp_minimal_client:/home/ros/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/ros/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/ros/ros2_ws/install/examples_rclcpp_cbg_executor:/home/ros/ros2_ws/install/examples_rclcpp_async_client:/home/ros/ros2_ws/install/launch_testing_examples:/home/ros/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ros/ros2_ws/install/examples_rclpy_minimal_service:/home/ros/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_client:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ros/ros2_ws/install/examples_rclpy_guard_conditions:/home/ros/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble')]), 'shell': False}
+[0.103993] (-) TimerEvent: {}
+[0.164484] (merge_arrays) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o\x1b[0m\n'}
+[0.188219] (merge_arrays) StdoutLine: {'line': b'[ 75%] Built target listener\n'}
+[0.209443] (-) TimerEvent: {}
+[0.328491] (-) TimerEvent: {}
+[0.431877] (-) TimerEvent: {}
+[0.544521] (-) TimerEvent: {}
+[0.654469] (-) TimerEvent: {}
+[0.782697] (-) TimerEvent: {}
+[0.893838] (-) TimerEvent: {}
+[0.996438] (-) TimerEvent: {}
+[1.101757] (-) TimerEvent: {}
+[1.206546] (-) TimerEvent: {}
+[1.333913] (-) TimerEvent: {}
+[1.443851] (-) TimerEvent: {}
+[1.550187] (-) TimerEvent: {}
+[1.719797] (-) TimerEvent: {}
+[1.871994] (-) TimerEvent: {}
+[2.030291] (-) TimerEvent: {}
+[2.140473] (-) TimerEvent: {}
+[2.242763] (-) TimerEvent: {}
+[2.348214] (-) TimerEvent: {}
+[2.457646] (-) TimerEvent: {}
+[2.562001] (-) TimerEvent: {}
+[2.666140] (-) TimerEvent: {}
+[2.777275] (-) TimerEvent: {}
+[2.887227] (-) TimerEvent: {}
+[3.004037] (-) TimerEvent: {}
+[3.134927] (-) TimerEvent: {}
+[3.236923] (-) TimerEvent: {}
+[3.340128] (-) TimerEvent: {}
+[3.444106] (-) TimerEvent: {}
+[3.554313] (-) TimerEvent: {}
+[3.662329] (-) TimerEvent: {}
+[3.809451] (-) TimerEvent: {}
+[3.910825] (-) TimerEvent: {}
+[4.017315] (-) TimerEvent: {}
+[4.118578] (-) TimerEvent: {}
+[4.222613] (-) TimerEvent: {}
+[4.334772] (-) TimerEvent: {}
+[4.436325] (-) TimerEvent: {}
+[4.559779] (-) TimerEvent: {}
+[4.664668] (-) TimerEvent: {}
+[4.765228] (-) TimerEvent: {}
+[4.876513] (-) TimerEvent: {}
+[4.980739] (-) TimerEvent: {}
+[5.085318] (-) TimerEvent: {}
+[5.215129] (-) TimerEvent: {}
+[5.322122] (-) TimerEvent: {}
+[5.518831] (-) TimerEvent: {}
+[5.637612] (-) TimerEvent: {}
+[5.745146] (-) TimerEvent: {}
+[5.848973] (-) TimerEvent: {}
+[5.954041] (-) TimerEvent: {}
+[6.061116] (-) TimerEvent: {}
+[6.170691] (-) TimerEvent: {}
+[6.570663] (-) TimerEvent: {}
+[6.679616] (-) TimerEvent: {}
+[6.783432] (-) TimerEvent: {}
+[6.888200] (-) TimerEvent: {}
+[7.027513] (-) TimerEvent: {}
+[7.179923] (-) TimerEvent: {}
+[7.346821] (-) TimerEvent: {}
+[7.513126] (-) TimerEvent: {}
+[7.678004] (-) TimerEvent: {}
+[7.907265] (-) TimerEvent: {}
+[8.010712] (-) TimerEvent: {}
+[8.195833] (-) TimerEvent: {}
+[8.298236] (-) TimerEvent: {}
+[8.434678] (-) TimerEvent: {}
+[8.539040] (-) TimerEvent: {}
+[8.650697] (-) TimerEvent: {}
+[8.762445] (-) TimerEvent: {}
+[8.875010] (-) TimerEvent: {}
+[8.990940] (-) TimerEvent: {}
+[9.093653] (-) TimerEvent: {}
+[9.194426] (-) TimerEvent: {}
+[9.298657] (-) TimerEvent: {}
+[9.399329] (-) TimerEvent: {}
+[9.500391] (-) TimerEvent: {}
+[9.605581] (-) TimerEvent: {}
+[9.709661] (-) TimerEvent: {}
+[9.817682] (-) TimerEvent: {}
+[10.175031] (-) TimerEvent: {}
+[10.281436] (-) TimerEvent: {}
+[10.398792] (-) TimerEvent: {}
+[10.502253] (-) TimerEvent: {}
+[10.702829] (-) TimerEvent: {}
+[10.909681] (-) TimerEvent: {}
+[11.011037] (-) TimerEvent: {}
+[11.112467] (-) TimerEvent: {}
+[11.213705] (-) TimerEvent: {}
+[11.315700] (-) TimerEvent: {}
+[11.424435] (-) TimerEvent: {}
+[11.535181] (-) TimerEvent: {}
+[11.636604] (-) TimerEvent: {}
+[11.738715] (-) TimerEvent: {}
+[11.839522] (-) TimerEvent: {}
+[11.940254] (-) TimerEvent: {}
+[12.040892] (-) TimerEvent: {}
+[12.141484] (-) TimerEvent: {}
+[12.242062] (-) TimerEvent: {}
+[12.342701] (-) TimerEvent: {}
+[12.444370] (-) TimerEvent: {}
+[12.545413] (-) TimerEvent: {}
+[12.648632] (-) TimerEvent: {}
+[12.751470] (-) TimerEvent: {}
+[12.852643] (-) TimerEvent: {}
+[12.953694] (-) TimerEvent: {}
+[13.055698] (-) TimerEvent: {}
+[13.156957] (-) TimerEvent: {}
+[13.257875] (-) TimerEvent: {}
+[13.359806] (-) TimerEvent: {}
+[13.461461] (-) TimerEvent: {}
+[13.567004] (-) TimerEvent: {}
+[13.669636] (-) TimerEvent: {}
+[13.771883] (-) TimerEvent: {}
+[13.872865] (-) TimerEvent: {}
+[13.979366] (-) TimerEvent: {}
+[14.079948] (-) TimerEvent: {}
+[14.206077] (-) TimerEvent: {}
+[14.315922] (-) TimerEvent: {}
+[14.419084] (-) TimerEvent: {}
+[14.435715] (merge_arrays) StdoutLine: {'line': b'\x1b[32m\x1b[1mLinking CXX executable merge_arrays_node\x1b[0m\n'}
+[14.519884] (-) TimerEvent: {}
+[14.621191] (-) TimerEvent: {}
+[14.722711] (-) TimerEvent: {}
+[14.823658] (-) TimerEvent: {}
+[14.924155] (-) TimerEvent: {}
+[14.995121] (merge_arrays) StdoutLine: {'line': b'Built target merge_arrays_node\n'}
+[15.012485] (merge_arrays) CommandEnded: {'returncode': 0}
+[15.024325] (-) TimerEvent: {}
+[15.075616] (merge_arrays) JobProgress: {'identifier': 'merge_arrays', 'progress': 'install'}
+[15.088992] (merge_arrays) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros/ros2_ws/build/merge_arrays'], 'cwd': '/home/ros/ros2_ws/build/merge_arrays', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/ros/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/ros/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros/ros2_ws/src/merge_arrays/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1565'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ros/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ROS:@/tmp/.ICE-unix/1541,unix/ROS:/tmp/.ICE-unix/1541'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/157cd786_84ba_4eb6_b302_233a36284147'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4D6K11'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '24'), ('AMENT_PREFIX_PATH', '/home/ros/ros2_ws/install/my_package:/home/ros/ros2_ws/install/merge_arrays:/home/ros/ros2_ws/install/launch_testing_examples:/home/ros/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ros/ros2_ws/install/examples_rclpy_minimal_service:/home/ros/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_client:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ros/ros2_ws/install/examples_rclpy_guard_conditions:/home/ros/ros2_ws/install/examples_rclpy_executors:/home/ros/ros2_ws/install/examples_rclcpp_wait_set:/home/ros/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/ros/ros2_ws/install/examples_rclcpp_minimal_timer:/home/ros/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/ros/ros2_ws/install/examples_rclcpp_minimal_service:/home/ros/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/ros/ros2_ws/install/examples_rclcpp_minimal_composition:/home/ros/ros2_ws/install/examples_rclcpp_minimal_client:/home/ros/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/ros/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/ros/ros2_ws/install/examples_rclcpp_cbg_executor:/home/ros/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros/ros2_ws/build/merge_arrays'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ros/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/ros/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/ros/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/ros/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/ros/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/ros/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/ros/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/ros/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ros/ros2_ws/install/my_package:/home/ros/ros2_ws/install/merge_arrays:/home/ros/ros2_ws/install/examples_rclcpp_wait_set:/home/ros/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/ros/ros2_ws/install/examples_rclcpp_minimal_timer:/home/ros/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/ros/ros2_ws/install/examples_rclcpp_minimal_service:/home/ros/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/ros/ros2_ws/install/examples_rclcpp_minimal_composition:/home/ros/ros2_ws/install/examples_rclcpp_minimal_client:/home/ros/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/ros/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/ros/ros2_ws/install/examples_rclcpp_cbg_executor:/home/ros/ros2_ws/install/examples_rclcpp_async_client:/home/ros/ros2_ws/install/launch_testing_examples:/home/ros/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ros/ros2_ws/install/examples_rclpy_minimal_service:/home/ros/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_client:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ros/ros2_ws/install/examples_rclpy_guard_conditions:/home/ros/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble')]), 'shell': False}
+[15.099919] (merge_arrays) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.100470] (merge_arrays) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/install/merge_arrays/lib/merge_arrays/merge_arrays_node\n'}
+[15.106884] (merge_arrays) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/ros2_ws/install/merge_arrays/lib/merge_arrays/merge_arrays_node" to ""\n'}
+[15.107857] (merge_arrays) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/install/merge_arrays/lib/merge_arrays/listener\n'}
+[15.108935] (merge_arrays) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/install/merge_arrays/share/ament_index/resource_index/package_run_dependencies/merge_arrays\n'}
+[15.109527] (merge_arrays) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/install/merge_arrays/share/ament_index/resource_index/parent_prefix_path/merge_arrays\n'}
+[15.110987] (merge_arrays) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/install/merge_arrays/share/merge_arrays/environment/ament_prefix_path.sh\n'}
+[15.111193] (merge_arrays) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/install/merge_arrays/share/merge_arrays/environment/ament_prefix_path.dsv\n'}
+[15.111408] (merge_arrays) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/install/merge_arrays/share/merge_arrays/environment/path.sh\n'}
+[15.111504] (merge_arrays) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/install/merge_arrays/share/merge_arrays/environment/path.dsv\n'}
+[15.111595] (merge_arrays) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/install/merge_arrays/share/merge_arrays/local_setup.bash\n'}
+[15.111684] (merge_arrays) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/install/merge_arrays/share/merge_arrays/local_setup.sh\n'}
+[15.111773] (merge_arrays) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/install/merge_arrays/share/merge_arrays/local_setup.zsh\n'}
+[15.111860] (merge_arrays) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/install/merge_arrays/share/merge_arrays/local_setup.dsv\n'}
+[15.111947] (merge_arrays) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/install/merge_arrays/share/merge_arrays/package.dsv\n'}
+[15.112047] (merge_arrays) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/install/merge_arrays/share/ament_index/resource_index/packages/merge_arrays\n'}
+[15.112138] (merge_arrays) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/install/merge_arrays/share/merge_arrays/cmake/merge_arraysConfig.cmake\n'}
+[15.112226] (merge_arrays) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/install/merge_arrays/share/merge_arrays/cmake/merge_arraysConfig-version.cmake\n'}
+[15.112357] (merge_arrays) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/install/merge_arrays/share/merge_arrays/package.xml\n'}
+[15.115053] (merge_arrays) CommandEnded: {'returncode': 0}
+[15.126057] (-) TimerEvent: {}
+[15.226694] (-) TimerEvent: {}
+[15.257693] (merge_arrays) JobEnded: {'identifier': 'merge_arrays', 'rc': 0}
+[15.259444] (-) EventReactorShutdown: {}

@@ -1,0 +1,28 @@
+[0.037s] Invoking command in '/home/ros/ros2_ws/build/merge_arrays': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/ros2_ws/install/launch_testing_examples:/home/ros/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ros/ros2_ws/install/examples_rclpy_minimal_service:/home/ros/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_client:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ros/ros2_ws/install/examples_rclpy_guard_conditions:/home/ros/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2_ws/build/merge_arrays -- -j4 -l4
+[0.109s] [35m[1mConsolidate compiler generated dependencies of target merge_arrays_node[0m
+[0.138s] [ 50%] Built target listener
+[0.156s] [ 75%] [32mBuilding CXX object CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o[0m
+[15.784s] [100%] [32m[1mLinking CXX executable merge_arrays_node[0m
+[16.392s] [100%] Built target merge_arrays_node
+[16.414s] Invoked command in '/home/ros/ros2_ws/build/merge_arrays' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/ros2_ws/install/launch_testing_examples:/home/ros/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ros/ros2_ws/install/examples_rclpy_minimal_service:/home/ros/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_client:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ros/ros2_ws/install/examples_rclpy_guard_conditions:/home/ros/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2_ws/build/merge_arrays -- -j4 -l4
+[16.496s] Invoking command in '/home/ros/ros2_ws/build/merge_arrays': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/ros2_ws/install/launch_testing_examples:/home/ros/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ros/ros2_ws/install/examples_rclpy_minimal_service:/home/ros/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_client:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ros/ros2_ws/install/examples_rclpy_guard_conditions:/home/ros/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/ros/ros2_ws/build/merge_arrays
+[16.517s] -- Install configuration: ""
+[16.522s] -- Installing: /home/ros/ros2_ws/install/merge_arrays/lib/merge_arrays/merge_arrays_node
+[16.589s] -- Set runtime path of "/home/ros/ros2_ws/install/merge_arrays/lib/merge_arrays/merge_arrays_node" to ""
+[16.591s] -- Up-to-date: /home/ros/ros2_ws/install/merge_arrays/lib/merge_arrays/listener
+[16.592s] -- Up-to-date: /home/ros/ros2_ws/install/merge_arrays/share/ament_index/resource_index/package_run_dependencies/merge_arrays
+[16.592s] -- Up-to-date: /home/ros/ros2_ws/install/merge_arrays/share/ament_index/resource_index/parent_prefix_path/merge_arrays
+[16.592s] -- Up-to-date: /home/ros/ros2_ws/install/merge_arrays/share/merge_arrays/environment/ament_prefix_path.sh
+[16.593s] -- Up-to-date: /home/ros/ros2_ws/install/merge_arrays/share/merge_arrays/environment/ament_prefix_path.dsv
+[16.594s] -- Up-to-date: /home/ros/ros2_ws/install/merge_arrays/share/merge_arrays/environment/path.sh
+[16.594s] -- Up-to-date: /home/ros/ros2_ws/install/merge_arrays/share/merge_arrays/environment/path.dsv
+[16.594s] -- Up-to-date: /home/ros/ros2_ws/install/merge_arrays/share/merge_arrays/local_setup.bash
+[16.594s] -- Up-to-date: /home/ros/ros2_ws/install/merge_arrays/share/merge_arrays/local_setup.sh
+[16.594s] -- Up-to-date: /home/ros/ros2_ws/install/merge_arrays/share/merge_arrays/local_setup.zsh
+[16.594s] -- Up-to-date: /home/ros/ros2_ws/install/merge_arrays/share/merge_arrays/local_setup.dsv
+[16.594s] -- Installing: /home/ros/ros2_ws/install/merge_arrays/share/merge_arrays/package.dsv
+[16.595s] -- Up-to-date: /home/ros/ros2_ws/install/merge_arrays/share/ament_index/resource_index/packages/merge_arrays
+[16.595s] -- Up-to-date: /home/ros/ros2_ws/install/merge_arrays/share/merge_arrays/cmake/merge_arraysConfig.cmake
+[16.596s] -- Up-to-date: /home/ros/ros2_ws/install/merge_arrays/share/merge_arrays/cmake/merge_arraysConfig-version.cmake
+[16.596s] -- Up-to-date: /home/ros/ros2_ws/install/merge_arrays/share/merge_arrays/package.xml
+[16.600s] Invoked command in '/home/ros/ros2_ws/build/merge_arrays' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/ros2_ws/install/launch_testing_examples:/home/ros/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ros/ros2_ws/install/examples_rclpy_minimal_service:/home/ros/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ros/ros2_ws/install/examples_rclpy_minimal_client:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ros/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ros/ros2_ws/install/examples_rclpy_guard_conditions:/home/ros/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/ros/ros2_ws/build/merge_arrays

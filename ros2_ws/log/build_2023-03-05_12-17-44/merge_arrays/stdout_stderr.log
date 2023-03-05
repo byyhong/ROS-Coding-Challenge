@@ -1,0 +1,11 @@
+[35m[1mConsolidate compiler generated dependencies of target merge_arrays_node[0m
+[ 50%] Built target listener
+[ 75%] [32mBuilding CXX object CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o[0m
+[01m[K/home/ros/ros2_ws/src/merge_arrays/src/merge_arrays_node.cpp:[m[K In member function ‘[01m[Kvoid MergeArrays::topic_callback(const String&) const[m[K’:
+[01m[K/home/ros/ros2_ws/src/merge_arrays/src/merge_arrays_node.cpp:44:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kc_str[m[K’ was not declared in this scope; did you mean ‘[01m[Kwcsstr[m[K’?
+   44 |         subscribe = msg.data/[01;31m[Kc_str[m[K();
+      |                              [01;31m[K^~~~~[m[K
+      |                              [32m[Kwcsstr[m[K
+gmake[2]: *** [CMakeFiles/merge_arrays_node.dir/build.make:76: CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/merge_arrays_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

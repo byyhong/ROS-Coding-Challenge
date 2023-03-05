@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target my_node[0m
+[100%] Built target my_node
+-- Install configuration: ""
+-- Installing: /home/ros/ros2_ws/install/merge_arrays/lib/merge_arrays/my_node
+-- Up-to-date: /home/ros/ros2_ws/install/merge_arrays/share/ament_index/resource_index/package_run_dependencies/merge_arrays
+-- Installing: /home/ros/ros2_ws/install/merge_arrays/share/ament_index/resource_index/parent_prefix_path/merge_arrays
+-- Up-to-date: /home/ros/ros2_ws/install/merge_arrays/share/merge_arrays/environment/ament_prefix_path.sh
+-- Installing: /home/ros/ros2_ws/install/merge_arrays/share/merge_arrays/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ros/ros2_ws/install/merge_arrays/share/merge_arrays/environment/path.sh
+-- Installing: /home/ros/ros2_ws/install/merge_arrays/share/merge_arrays/environment/path.dsv
+-- Up-to-date: /home/ros/ros2_ws/install/merge_arrays/share/merge_arrays/local_setup.bash
+-- Up-to-date: /home/ros/ros2_ws/install/merge_arrays/share/merge_arrays/local_setup.sh
+-- Up-to-date: /home/ros/ros2_ws/install/merge_arrays/share/merge_arrays/local_setup.zsh
+-- Installing: /home/ros/ros2_ws/install/merge_arrays/share/merge_arrays/local_setup.dsv
+-- Installing: /home/ros/ros2_ws/install/merge_arrays/share/merge_arrays/package.dsv
+-- Up-to-date: /home/ros/ros2_ws/install/merge_arrays/share/ament_index/resource_index/packages/merge_arrays
+-- Up-to-date: /home/ros/ros2_ws/install/merge_arrays/share/merge_arrays/cmake/merge_arraysConfig.cmake
+-- Up-to-date: /home/ros/ros2_ws/install/merge_arrays/share/merge_arrays/cmake/merge_arraysConfig-version.cmake
+-- Installing: /home/ros/ros2_ws/install/merge_arrays/share/merge_arrays/package.xml
