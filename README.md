@@ -5,6 +5,8 @@ For some reason git thinks the src file is a submodule, and I wasn't able to tur
 
 	rm -rf ros2_ws/src
 	mv src ros2_ws/src
+
+The Approach I took on this project was to create two subscriber and one publisher in one node. The two subscriber are responsible for getting the message from the two topics for input, then we can merge the two input arrays and turn it into a new one. 
 # Run the folloing commands:
 	colcon build --packages-select merge_arrays
 	ros2 run merge_arrays merge_arrays_node
